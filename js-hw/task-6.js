@@ -1,5 +1,7 @@
-/*
-    Функція суми:
-    Створити функцію sum, яка приймає два числа 
-    і повертає їх суму.
-*/
+function sum(a, b) {
+    return a + b;
+}
+
+
+const result = sum(5, 10);
+console.log(result); 
